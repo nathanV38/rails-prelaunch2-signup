@@ -17,3 +17,16 @@ ADMIN_PASSWORD: changeme
 ROLES: [admin, user]
 EMAIL_ADDRESS: user@example.com
 DOMAIN: example.com
+
+MANDRILL_USERNAME: "garciap819@gmail.com"
+MANDRILL_API_KEY: 3wKfoV-_pCML-XFQlxdGdg
+MAILCHIMP_API_KEY: 74be768a50cc1577610b8bf7ee3af89d-us7
+MAILCHIMP_LIST_ID: aa78a30c8f
+ADMIN_NAME: First User
+ADMIN_EMAIL: user@example.com
+ADMIN_PASSWORD: changeme
+ROLES: [admin, user]
+EMAIL_ADDRESS: user@example.com
+DOMAIN: example.com
+
+

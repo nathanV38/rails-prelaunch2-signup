@@ -1,4 +1,4 @@
-<%= link_to "Rails Prelaunch2 Signup", root_path, :class => 'brand' %>
+<%= link_to "CDM", root_path, :class => 'brand' %>
 <ul class="nav">
   <% if user_signed_in? %>
     <li>
@@ -6,12 +6,12 @@
     </li>
   <% else %>
     <li>
-    <%= link_to 'Login', new_user_session_path %>
+    <%= link_to 'Connection', new_user_session_path %>
     </li>
   <% end %>
   <% if user_signed_in? %>
     <li>
-    <%= link_to 'Edit account', edit_user_registration_path %>
+    <%= link_to 'Parametres', edit_user_registration_path %>
     </li>
     <% if current_user.has_role? :admin %>
       <li>
@@ -20,7 +20,7 @@
     <% end %>
   <% else %>
     <li>
-    <%= link_to 'Sign up', new_user_registration_path %>
+    <%= link_to 'Inscription', new_user_registration_path %>
     </li>
   <% end %>
 </ul>
