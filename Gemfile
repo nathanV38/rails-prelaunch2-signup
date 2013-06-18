@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 
-group :production do
+group :development do
 	gem 'sqlite3'
 end 
-group :development do
+group :production do
 	gem 'pg'
 end 
 group :assets do
